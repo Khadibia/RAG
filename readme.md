@@ -15,4 +15,5 @@ Invoke-RestMethod -Uri "http://127.0.0.1:8000/ask" `
   -Body '{"query": "Where is Ihifix located?"}'
 
 # One Liner
-Invoke-RestMethod -Uri "http://127.0.0.1:8000/ask" -Method POST -Headers @{ "Content-Type" = "application/json" } -Body '{"query": "Where is Ihifix located?"}'
+
+Invoke-RestMethod -Uri "https://rag-d5nk.onrender.com/ask" -Method POST -Headers @{ "Content-Type" = "application/json" } -Body '{"query": "Where is Ihifix located?"}'
